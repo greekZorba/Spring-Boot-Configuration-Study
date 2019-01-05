@@ -1,4 +1,4 @@
-package com.community;
+package com.demo.community;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
