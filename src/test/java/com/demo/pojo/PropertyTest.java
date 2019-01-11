@@ -11,6 +11,10 @@ import java.util.List;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
+/**
+ * SpringBootTest 애노테이션은 찾기 알고리즘을 사용해 @SpringBootConfiguration을
+ * 계속 찾기 때문에 @SpringBootConfiguration이 선언되어야 스프링부트테스트 사용 가능
+ * */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PropertyTest {

@@ -31,3 +31,13 @@ fruit:
       - name: water melon
         color: green
 
+# h2 메모리 DB를 사용하기 위한 설정
+datasource:
+  url: jdbc:h2:mem:testdb
+
+spring:
+    h2:
+      console:
+          path: /h2-test
+          enabled: true
+
