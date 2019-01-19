@@ -19,6 +19,7 @@ server:
 property:
     test:
       name: property depth test
+
 propertyTest: test
 propertyTestList: a,b,c
 
@@ -38,6 +39,6 @@ datasource:
 spring:
     h2:
       console:
-          path: /h2-test
+#          path: /h2-test
           enabled: true
 
