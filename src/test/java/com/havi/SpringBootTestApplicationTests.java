@@ -16,7 +16,7 @@ import static org.junit.Assert.assertThat;
  * @RunWith(SpringRunner.class)를 붙여야 사용 가능
  *
  * springBootTest에 환경설정에 대해 직접 인자를 주입해서 테스트 가능하다.
- * 하지만 propertyies와 value를 동시에 사용할 수 없다.
+ * 하지만 properties와 value를 동시에 사용할 수 없다.
  * */
 @RunWith(SpringRunner.class)
 @SpringBootTest(value = "value=test",
